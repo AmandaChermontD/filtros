@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Filtro e Gravação de Arquivos</h1>
+    <form action="json.php" method="get" >
+        <fieldset>
+            <legend>Filtros e Gravação</legend>
+            <Label for="fname">Nome:</Label>
+            <input type="text" id="fname" name="fname"required><br><br>
+           
+            <Label for="faltura">Gênero</Label><br><br>
+            <input type="radio" id="genero1" name="fgenero" value="masculino">
+            <label for="vehicle1"> Masculino</label><br>
+            <input type="radio" id="genero2" name="fgenero" value="feminino">
+            <label for="vehicle2"> Feminino</label><br>
+            <input type="radio" id="genero3" name="fgenero" value="não informar">
+            <label for="vehicle2"> Prefiro não informar</label><br><br>
+           
+            <Label for="fdata">Data de Nascimento:</Label>
+            <input type="date" id="fdata" name="fdata"required><br><br>
+
+            <Label for="telefone">Telefone:</Label>
+            <input type="tel" id="telefone" name="telefone"placeholder="61 23211-1232" required><br><br>
+
+            <Label for="femail">Email:</Label>
+            <input type="email" id="femail" name="femail"required><br><br>
+           
+           
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

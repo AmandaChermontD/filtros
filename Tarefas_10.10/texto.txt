@@ -1,0 +1,1 @@
+{"nome":"Amanda","genero":"feminino","data":"2022-10-26","telefone":"61 9999-99999","email":"a@gmail.com"}
